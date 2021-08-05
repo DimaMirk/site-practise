@@ -33,11 +33,11 @@ a{
     font-weight: 600;
     font-size: 11px;
     line-height: 15px;
-    color: var(--text-primary);
+    
 }
 
 .suptitle-secondary{
-    color: #9DA4BD99;
+    color: var(--text-secondary);
     display: flex;
     align-items: center;
 } 
@@ -48,8 +48,18 @@ a{
     height: 1px;
     background-color: rgba(157, 164, 189, 1);
     margin-right: 20px;
-   
-
+}
+.suptitle-primary{
+    display: flex;
+    align-items: center;
+}
+.suptitle-primary::before{
+    display: flex;
+    content: "";
+    width: 60px;
+    height: 1px;
+    background-color:rgba(48, 48, 48, 1);
+    margin-right: 20px;
 }
 
 h2.section-title{
